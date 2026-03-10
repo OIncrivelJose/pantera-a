@@ -1,0 +1,235 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNLB6cWZUKRKuxVQo0Wyunt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/OIncrivelJose/pantera-a/blob/main/codes\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "calcular a área do retangulo"
+      ],
+      "metadata": {
+        "id": "gwNQnDTc1Vxz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# entrada\n",
+        "comprimento = float(input(\"digite o comprimento do retangulo:\"))\n",
+        "altura = float(input(\"digite a altura do retangulo:\"))\n",
+        "\n",
+        "# processamento\n",
+        "\n",
+        "area = comprimento * altura\n",
+        "\n",
+        "# saida\n",
+        "\n",
+        "print (f\"o total da área do retangulo é:{area}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4-qjYEyL1a4Q",
+        "outputId": "5fc8fe12-3116-4954-d43c-3a9020f86415"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o comprimento do retangulo:6\n",
+            "digite a altura do retangulo:3\n",
+            "o total da área do retangulo é:18.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Fazer um cadastro de usuário\n",
+        "\n",
+        "Objetivo Trabalhar com String (str)\n",
+        "\n",
+        "Entradada de dados: nome e idade processamento: armazenar os dados saída: mostrar uma mensagem de olá e a idade do usuário"
+      ],
+      "metadata": {
+        "id": "TxeGrIHP2stP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# entrada\n",
+        "nome = str(input(\"digite seu nome:\"))\n",
+        "idade = int(input(\"digite sua idade\"))\n",
+        "\n",
+        "# saida\n",
+        "\n",
+        "print(f\"olá {nome}, seja bem vindo\")\n",
+        "print(f\"você tem {idade} anos\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ol1Ze0gh23GI",
+        "outputId": "7bd42a09-5fef-4569-e35f-4b7c48dbf1f3"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite seu nome:arthur\n",
+            "digite sua idade15\n",
+            "olá arthur, seja bem vindo\n",
+            "você tem 15 anos\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "fazer um programa que calcula o dobro de um número\n",
+        "\n",
+        "Entrada: um número\n",
+        "\n",
+        "Processamento: calcular o dobro\n",
+        "\n",
+        "Saída: mostrar o resultado"
+      ],
+      "metadata": {
+        "id": "EMEOYxX940Uk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# entrada\n",
+        "número = float(input(\"digite um número \"))\n",
+        "\n",
+        "# processamento\n",
+        "dobro = número * 2\n",
+        "\n",
+        "# saida\n",
+        "print(f\"o dobro do número {número} é igual a:{dobro}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pFJT4vkL5B2z",
+        "outputId": "bceb35bc-441b-4b97-8a6f-e5f44390b56b"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um número 5\n",
+            "o dobro do número 5.0 é igual a:10.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "escrever um programa que calcula a media das notas do aluno.\n",
+        "\n",
+        "Entrada: nome, idade, e as 4 notas do bimestre\n",
+        "\n",
+        "Processamento: calcular a media\n",
+        "\n",
+        "Saída: mostrar o nome do aluno e a média obtida"
+      ],
+      "metadata": {
+        "id": "pLOnM0w7CuLk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# entrada\n",
+        "nome = str(input(\"digite o seu nome \"))\n",
+        "idade = int(input(\"digite sua idade \"))\n",
+        "nota_1_bimestre = float(input(\"digite a nota do 1 bimestre \"))\n",
+        "nota_2_bimestre = float(input(\"digite a nota do 2 bimestre \"))\n",
+        "nota_3_bimestre = float(input(\"digite a nota do 3 bimestre \"))\n",
+        "nota_4_bimestre = float(input(\"digite a nota do 4 bimestre \"))\n",
+        "\n",
+        "# processamento\n",
+        "media = (nota_1_bimestre + nota_2_bimestre + nota_3_bimestre + nota_4_bimestre) / 4\n",
+        "\n",
+        "# saída\n",
+        "print(f\"aluno: {nome}\")\n",
+        "print(f\"idade: {idade}\")\n",
+        "print(f\"media]vc: {media}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7sNtWuu7DDGk",
+        "outputId": "1d0519e0-7550-40ba-f33b-854ea72336df"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o seu nome 1\n",
+            "digite sua idade 2\n",
+            "digite a nota do 1 bimestre 3\n",
+            "digite a nota do 2 bimestre 4\n",
+            "digite a nota do 3 bimestre 5\n",
+            "digite a nota do 4 bimestre 6\n",
+            "aluno: 1\n",
+            "idade: 2\n",
+            "media]: 4.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "8D3JbsmADp72"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
